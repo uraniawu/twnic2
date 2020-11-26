@@ -91,6 +91,41 @@ input:-ms-input-placeholder {
 input:placeholder-shown {
   color: #adadad; }
 
+.filter1Panel .iptSearch2 input::-webkit-input-placeholder {
+  color: #adadad;
+  background: -webkit-linear-gradient(left, #adadad 0%, #adadad 100%);
+  background: linear-gradient(to right, #adadad 0%, #adadad 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.filter1Panel .iptSearch2 input::-moz-placeholder {
+  color: #adadad;
+  background: linear-gradient(to right, #adadad 0%, #adadad 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1; }
+
+.filter1Panel .iptSearch2 input:-ms-input-placeholder {
+  color: #adadad;
+  background: linear-gradient(to right, #adadad 0%, #adadad 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.filter1Panel .iptSearch2 input:placeholder-shown {
+  color: #adadad;
+  background: -webkit-linear-gradient(left, #adadad 0%, #adadad 100%);
+  background: linear-gradient(to right, #adadad 0%, #adadad 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+@media all and (-ms-high-contrast: none) {
+  .filter1Panel .iptSearch2 input:-ms-input-placeholder {
+    color: #adadad;
+    background: transparent; }
+
+  .filter1Panel .iptSearch2 input:placeholder-shown {
+    color: #adadad;
+    background: transparent; } }
 input[type=text]:focus, input[type=password]:focus, textarea:focus {
   outline: none; }
 
@@ -796,11 +831,7 @@ footer {
   border-radius: 0;
   background: transparent;
   -moz-box-sizing: border-box;
-       box-sizing: border-box;
-  background: -webkit-linear-gradient(left, #18cfdd 0%, #3988d3 100%);
-  background: linear-gradient(to right, #18cfdd 0%, #3988d3 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+       box-sizing: border-box; }
 
 @media all and (-ms-high-contrast: none) {
   .ipt1 {
@@ -966,7 +997,11 @@ footer {
 .iptSearch2 {
   padding: 0 30px; }
   .iptSearch2 .ipt1 {
-    color: #000; }
+    color: #000;
+    background: -webkit-linear-gradient(left, #18cfdd 0%, #3988d3 100%);
+    background: linear-gradient(to right, #18cfdd 0%, #3988d3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
   .iptSearch2 .scopeBtn {
     display: block;
     position: absolute;
@@ -993,6 +1028,10 @@ footer {
       background: linear-gradient(to right, #3988d3 0%, #2aadd7 50%, #18cfdd 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3988d3', endColorstr='#18cfdd',GradientType=1 ); }
 
+@media all and (-ms-high-contrast: none) {
+  .iptSearch2 .ipt1 {
+    color: #00acdd;
+    background: transparent; } }
 .note1 {
   font-size: 13px;
   color: #111;
