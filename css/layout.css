@@ -1863,7 +1863,7 @@ footer {
   .filter1Type a {
     width: 70px;
     height: auto;
-    min-height: 56px;
+    min-height: 58px;
     line-height: 1.3;
     padding: 10px 10px 6px 10px;
     vertical-align: top; }
@@ -1934,9 +1934,9 @@ footer {
     font-size: 12px; }
 
   .header .logo {
-    position: initial;
-    top: initial;
-    left: initial; }
+    position: inherit;
+    top: inherit;
+    left: inherit; }
 
   .header .hdR b, .header .hdL b {
     font-size: 14px; }
@@ -1946,8 +1946,9 @@ footer {
 
   .header .hdR {
     width: auto;
-    position: initial;
-    top: initial;
+    position: inherit;
+    top: inherit;
+    right: inherit;
     padding-top: 20px; }
     .header .hdR b {
       text-align: left; }
@@ -2008,7 +2009,7 @@ footer {
   .filter1Type a {
     font-size: 12px;
     width: 49px;
-    min-height: 40px;
+    min-height: 42px;
     padding: 5px;
     margin-right: 3px; }
 
