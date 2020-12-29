@@ -775,7 +775,7 @@ footer {
   padding-bottom: 112px; }
 
 .wrap1277 {
-  max-width: 1277px;
+  max-width: 1120px;
   margin: 0 auto; }
 
 .header {
@@ -791,35 +791,47 @@ footer {
   .header .logo {
     display: block;
     position: absolute;
-    top: 75px;
+    top: 40px;
     left: 0;
     color: #fff;
     -moz-box-sizing: border-box;
          box-sizing: border-box; }
     .header .logo b {
       display: block;
-      font-weight: 300;
-      font-size: 36px; }
+      font-weight: 500;
+      font-size: 16px;
+      margin-bottom: 5px; }
     .header .logo i {
-      font-style: normal;
-      font-size: 14px;
-      text-transform: uppercase;
-      letter-spacing: 0.5px; }
+      display: block;
+      width: 280px;
+      height: 40px;
+      background-image: url(../img/logo_twic.png);
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      background-size: 100% auto; }
   .header .hdR {
     position: absolute;
     right: 0;
-    top: 45px; }
+    top: 40px; }
+    .header .hdR b {
+      display: block;
+      color: #fff;
+      font-size: 16px;
+      font-weight: normal;
+      text-align: center;
+      margin-bottom: 10px; }
     .header .hdR a {
       display: inline-block;
-      height: 100px;
-      margin-left: 35px;
+      height: 61px;
       background-position: 0 0;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat;
+      background-size: auto 61px; }
   .header .logoStli {
-    width: 139px;
+    width: 90px;
     background-image: url(../img/logo_stli.png); }
   .header .logoTA {
-    width: 152px;
+    width: 94px;
+    margin-left: 10px;
     background-image: url(../img/logo_taipeiAssociation.png); }
 
 .ipt1 {
@@ -885,7 +897,7 @@ footer {
   .kv .title1 {
     display: block;
     position: absolute;
-    top: 135px;
+    top: 112px;
     left: 0;
     width: 100%;
     text-align: center; }
@@ -893,7 +905,12 @@ footer {
 .title1 h1 {
   font-size: 28px;
   color: #fff;
-  font-weight: normal; }
+  font-weight: 700;
+  margin: 7px 0; }
+.title1 i {
+  font-size: 20px;
+  color: #fff;
+  font-style: normal; }
 
 .title1-black h1 {
   color: #111;
@@ -922,7 +939,7 @@ footer {
     font-style: normal; }
 
 .filterBar {
-  padding: 30px 7.6%;
+  padding: 30px 7.5%;
   border-radius: 30px;
   border: 5px solid #d9eff6;
   background-color: #fff;
@@ -964,7 +981,7 @@ footer {
     display: block; }
 
 .filter1Type {
-  padding: 0 20px;
+  padding: 0 19px;
   font-size: 0; }
   .filter1Type a {
     display: inline-block;
@@ -974,7 +991,7 @@ footer {
     margin-right: 3px;
     height: 40px;
     line-height: 33px;
-    padding: 7px 20px 0 20px;
+    padding: 7px 19px 0 19px;
     font-weight: 700;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -1035,8 +1052,12 @@ footer {
 .note1 {
   font-size: 13px;
   color: #111;
-  font-weight: 700;
-  padding: 15px 30px 0 30px; }
+  padding: 15px 0 0 0; }
+  .note1 li {
+    margin-bottom: 5px;
+    text-indent: -11px;
+    margin-left: 11px;
+    line-height: 1.3; }
 
 .filterResI {
   position: relative;
@@ -1782,22 +1803,8 @@ footer {
   .wrapper {
     padding-bottom: 133px; }
 
-  .header .logo {
-    top: 40px; }
-
   .header .hdR {
-    top: 35px; }
-
-  .header .hdR a {
-    height: 75px;
-    margin-left: 25px;
-    background-size: auto 75px; }
-
-  .header .logoStli {
-    width: 104px; }
-
-  .header .logoTA {
-    width: 115px; } }
+    top: 20px; } }
 @media screen and (max-width: 895px) {
   .filter1Type a {
     padding: 7px 10px 0 10px; }
@@ -1856,8 +1863,10 @@ footer {
   .filter1Type a {
     width: 70px;
     height: auto;
+    min-height: 56px;
     line-height: 1.3;
-    padding: 10px 10px 6px 10px; }
+    padding: 10px 10px 6px 10px;
+    vertical-align: top; }
     .filter1Type a br {
       display: block; }
 
@@ -1918,36 +1927,33 @@ footer {
       width: 100%;
       border-radius: 3px; }
 
-  .note1 {
-    text-align: center; }
-
   .tbList1 table, .tbList2 table {
-    min-width: 100%; }
-
-  .header .logo {
-    top: 50px; }
-
-  .header .logo b {
-    font-size: 30px; } }
+    min-width: 100%; } }
 @media screen and (max-width: 640px) {
-  .header .logo b {
-    font-size: 20px;
-    font-weight: 700; }
-
   .header .logo i {
     font-size: 12px; }
 
   .header .logo {
-    top: 27px; }
+    position: initial;
+    top: initial;
+    left: initial; }
+
+  .header .hdR b, .header .hdL b {
+    font-size: 14px; }
+
+  .header .hdL {
+    padding-top: 30px; }
 
   .header .hdR {
-    top: 21px;
-    width: 69px; }
+    width: auto;
+    position: initial;
+    top: initial;
+    padding-top: 20px; }
+    .header .hdR b {
+      text-align: left; }
 
   .header .hdR a {
     height: 45px;
-    margin-left: 0;
-    margin-bottom: 10px;
     background-size: auto 45px; }
 
   .header .logoStli {
@@ -1957,7 +1963,7 @@ footer {
     width: 69px; }
 
   .kv .title1 {
-    top: 135px; }
+    top: 205px; }
 
   .kv {
     height: 430px; }
@@ -1965,12 +1971,15 @@ footer {
   .title1 h1 {
     font-size: 22px; }
 
+  .title1 i {
+    font-size: 16px; }
+
   .breadcrumb {
     display: none; }
 
   .conWrap4 {
     padding: 0 15px;
-    margin-top: -245px; }
+    margin-top: -160px; }
 
   .filterBar {
     border-width: 4px;
@@ -1998,7 +2007,8 @@ footer {
 
   .filter1Type a {
     font-size: 12px;
-    width: 57px;
+    width: 49px;
+    min-height: 40px;
     padding: 5px;
     margin-right: 3px; }
 
@@ -2177,7 +2187,7 @@ footer {
   /* bulletin_detail */
   .conWrap5 {
     padding: 30px 15px;
-    margin-top: -245px;
+    margin-top: -155px;
     box-shadow: none;
     border-radius: 15px;
     border: none; }
